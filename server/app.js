@@ -11,8 +11,6 @@ let mongoose = require('mongoose');
 // URI
 let config = require('./config/db');
 
-
-
 mongoose.connect(config.URI);
 
 let db = mongoose.connection;
